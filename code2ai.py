@@ -48,7 +48,7 @@ def merge_code_files(root_dir, output_file, exclude_dirs=None, exclude_exts=None
 
 if __name__ == "__main__":
     config = {
-        "root_dir": "./",      # 要扫描的代码目录
+        "root_dir": "./",      # 要扫描的代码目录，默认是当前目录
         "output_file": "giveAi.txt",  # 输出文件名
         "exclude_dirs": [".git", ".idea", "__pycache__"],  # 排除的目录
         "exclude_exts": [".DS_Store", "code2ai.py", "*.log", "*.bin", "*.pyc", ".gitignore"]  # 排除的文件类型
